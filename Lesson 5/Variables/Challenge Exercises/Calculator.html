@@ -8,12 +8,21 @@
       calculation += '1';
       console.log(calculation);
       ">1</button>
-    <button>2</button>
-    <button>3</button>
-    <button>+</button>
+    <button onclick="
+      calculation += '2';
+      console.log(calculation);
+      ">2</button>
+    <button onclick="
+      calculation += '3';
+      console.log(calculation);
+      ">3</button>
+    <button onclick="
+      calculation += ' + ';
+      console.log(calculation);
+      ">+</button>
     <button>=</button>
     <script>
-      const calculation = 'let calculation =';
+      let calculation = 'let calculation = ';
     </script>
   </body>
 </html>
