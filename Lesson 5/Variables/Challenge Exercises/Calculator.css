@@ -1,0 +1,19 @@
+div {
+  background-color: rgb(138, 1, 1);
+  display: flex;
+  flex-direction: column;
+  margin:0px;
+  align-items: center;
+}
+
+p {
+  margin:10px;
+}
+.math-button {
+  background-color: black;
+  color:wheat;
+  border:none;
+  border-radius:5px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+}
