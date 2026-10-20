@@ -1,31 +1,106 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>1st Challenge</title>
-  </head>
-  <body>
-    <button onclick="
+
+<head>
+  <link rel="stylesheet" href="Calculator.css">
+  <title>1st Challenge</title>
+</head>
+
+<body>
+  <div>
+    <h1>
+      My First Basic Calculator
+    </h1>
+    <p>
+      <button onclick="
+        calculation += '7';
+        console.log(calculation);
+        " class="math-button">7</button>
+      <button onclick="
+        calculation += '8';
+        console.log(calculation);
+        " class="math-button">8</button>
+      <button onclick="
+        calculation += '9';
+        console.log(calculation);
+        " class="math-button">9</button>
+
+      <button onclick="
+        calculation += ' / ';
+        console.log(calculation);
+        " class="math-button">/</button>
+    </p>
+
+    <p>
+      <button onclick="
+      calculation += '4';
+      console.log(calculation);
+      " class="math-button">4</button>
+      <button onclick="
+      calculation += '5';
+      console.log(calculation);
+      " class="math-button">5</button>
+      <button onclick="
+      calculation += '6';
+      console.log(calculation);
+      " class="math-button">6</button>
+
+      <button onclick="
+      calculation += '*';
+      console.log(calculation);
+      " class="math-button">*</button>
+    </p>
+
+    <p>
+      <button onclick="
       calculation += '1';
       console.log(calculation);
-      ">1</button>
-    <button onclick="
+      " class="math-button">1</button>
+      <button onclick="
       calculation += '2';
       console.log(calculation);
-      ">2</button>
-    <button onclick="
+      " class="math-button">2</button>
+      <button onclick="
       calculation += '3';
       console.log(calculation);
-      ">3</button>
-    <button onclick="
-      calculation += ' + ';
+      " class="math-button">3</button>
+
+      <button onclick="
+      calculation += ' - ';
       console.log(calculation);
-      ">+</button>
-    <button onclick="
+      " class="math-button">-</button>
+    </p>
+
+    <p>
+      <button onclick="
+      calculation += '0';
+      console.log(calculation);
+      " class="math-button">0</button>
+      <button onclick="
+      calculation += ' . ';
+      console.log(calculation);
+      " class="math-button">.</button>
+
+      <button onclick="
     calculation = eval(calculation);
     console.log(calculation);
-    ">=</button>
-    <script>
-      let calculation = 'let calculation = ';
-    </script>
-  </body>
+    " class="math-button">=</button>
+
+      <button onclick="
+      calculation += ' + ';
+      console.log(calculation);
+      " class="math-button">+</button>
+    </p>
+
+    <p>
+      I made this Calculator using HTML CSS and JavaScript.
+    </p>
+  </div>
+
+  <script>
+    let calculation = '';
+  </script>
+
+</body>
+
 </html>
