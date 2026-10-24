@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>9th Problem</title>
+</head>
+<body>
+  <script>
+
+    const randomNumber = Math.random();
+    let result = '';
+    
+
+    if(randomNumber <= 0.5) {
+      result = 'heads';
+    } else {
+      result = 'tails';
+    }
+
+    let guess = 'tails';
+
+    if(result === guess) {
+      console.log('You Win.');
+    } else {
+      console.log('You Lost.');
+    }
+    
+  </script>
+</body>
+</html>
