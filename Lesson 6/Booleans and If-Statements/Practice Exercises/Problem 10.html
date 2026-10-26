@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>10th Problem</title>
+</head>
+<body>
+  <script>
+
+    const randomNumber = Math.random();
+    let result = '';
+    
+    randomNumber <= 0.5 ? result = 'heads' : result = 'tails';
+
+    let guess = prompt('Guess heads or tails');
+
+    guess === result ? console.log(`You Chose ${guess} Computer Chose ${result}. You Win`) : console.log(`You Chose ${guess} Computer Chose ${result}. You Lost.`);
+
+  </script>
+</body>
+</html>
