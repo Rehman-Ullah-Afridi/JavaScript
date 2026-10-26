@@ -9,19 +9,18 @@
     const randomNumber = Math.random();
     let result = '';
     
-
     if(randomNumber <= 0.5) {
       result = 'heads';
     } else {
       result = 'tails';
     }
 
-    let guess = 'tails';
+    let guess = prompt('Guess heads or tails');
 
     if(result === guess) {
-      console.log('You Win.');
+      console.log(`You Chose ${guess} Computer Chose ${result}. You Win`);
     } else {
-      console.log('You Lost.');
+      console.log(`You Chose ${guess} Computer Chose ${result}. You Lost.`);
     }
     
   </script>
