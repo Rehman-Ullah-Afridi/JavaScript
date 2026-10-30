@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Booleans</title>
+  </head>
+
+  <body>
+    <script>
+      console.log(3 < 5);
+
+      console.log(5 == '5.00');
+
+      if (false) {
+        console.log('Welcome');
+      }
+      else {
+        console.log('Who are You?');
+      }
+
+      if (19 >= 20) {
+        console.log('You can Drive');
+      } else if (15 <= 20) {
+        console.log('You Cannot Drive Boy. You heard me you cannot drive. Understood');
+      } else {
+        console.log('You are not ready to Drive.');
+      }
+
+      console.log(true && false);
+      console.log(0.2 >= 0 && 0.2 < 1);
+
+      console.log(true || false);
+      console.log(!true);
+
+      // Falsy Values are (false 0 '' NaN undefined and null)
+      if(0) {
+        console.log('hello world!');
+      }
+
+      if(1) {
+        console.log('helo');
+      }
+
+      console.log(!0);
+
+      console.log('hello' /2);
+
+      let variable4;
+      console.log(variable4);
+
+      // This is Ternary Operator:
+      const result = 1 ? 'Truthy' : 'Falsy';
+      console.log(result);
+
+      // Guard Operator:
+      const message = false && 'hello';
+      console.log(message);
+
+      // Default Operator:
+      const currency = undefined || 'USD';
+      console.log(currency);
+
+    </script>
+  </body>
+
+</html>
